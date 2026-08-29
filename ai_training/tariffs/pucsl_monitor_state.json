@@ -1,0 +1,105 @@
+{
+  "index_url": "https://www.pucsl.gov.lk/end-user-tariff-decisions/",
+  "last_checked_at": "2026-08-29T15:55:11.547669+00:00",
+  "last_error": null,
+  "candidates": [
+    {
+      "id": "bc79e7baefa7650b",
+      "title": "Decision on Electricity Tariff \u2013 2026 May",
+      "source_url": "https://www.pucsl.gov.lk/wp-content/uploads/2026/05/Full-Final_Decision-on-Electricity-Tariffs-May-2026.pdf",
+      "status": "already_imported",
+      "detected_at": "2026-06-28T11:39:04.861909+00:00"
+    },
+    {
+      "id": "623dce5775cd587b",
+      "title": "Tariff Schedule \u2013 2026 May",
+      "source_url": "https://www.pucsl.gov.lk/wp-content/uploads/2026/05/Annex-2-Approved-Tariff-Tabel_May-2026.pdf",
+      "status": "historical",
+      "detected_at": "2026-06-28T11:39:04.861909+00:00"
+    },
+    {
+      "id": "15f945e5e6f8d08e",
+      "title": "Tariff Schedule \u2013 2025 January",
+      "source_url": "https://www.pucsl.gov.lk/wp-content/uploads/2025/01/Tariff-Schedule-January-2025.pdf",
+      "status": "historical",
+      "detected_at": "2026-06-28T11:39:04.861909+00:00"
+    },
+    {
+      "id": "9e456c9fd30f06e8",
+      "title": "Tariff Schedule \u2013 2024 July",
+      "source_url": "https://www.pucsl.gov.lk/wp-content/uploads/2024/07/Tariff-V2-scaled.jpg",
+      "status": "historical",
+      "detected_at": "2026-06-28T11:39:04.861909+00:00"
+    },
+    {
+      "id": "365e1d563f6552b2",
+      "title": "Decision on Electricity Tariff \u2013 2024 July",
+      "source_url": "https://www.pucsl.gov.lk/wp-content/uploads/2024/07/Decision-Document-Second-Electricity-Tariff-Revision-for-2024.pdf",
+      "status": "historical",
+      "detected_at": "2026-06-28T11:39:04.861909+00:00"
+    },
+    {
+      "id": "76c31c4246aa5dbb",
+      "title": "Tariff Schedule \u2013 2024 March",
+      "source_url": "https://www.pucsl.gov.lk/wp-content/uploads/2024/04/Tariff-Table-R1-2.pdf",
+      "status": "historical",
+      "detected_at": "2026-06-28T11:39:04.861909+00:00"
+    },
+    {
+      "id": "13c82d05da4c2d39",
+      "title": "Decision on Electricity Tariff \u2013 2024 March",
+      "source_url": "https://www.pucsl.gov.lk/wp-content/uploads/2024/04/Decision-on-Electricity-Tariffs-2024-with-annexures-1-1.pdf",
+      "status": "historical",
+      "detected_at": "2026-06-28T11:39:04.861909+00:00"
+    },
+    {
+      "id": "89f17987fae0a002",
+      "title": "Decision on Electricity Tariff \u2013 2023 October",
+      "source_url": "https://www.pucsl.gov.lk/wp-content/uploads/2023/10/20-OCT-2023-CEB.pdf",
+      "status": "historical",
+      "detected_at": "2026-06-28T11:39:04.861909+00:00"
+    },
+    {
+      "id": "447a14fec557bb4a",
+      "title": "Decision on Electricity Tariff 2022",
+      "source_url": "https://www.pucsl.gov.lk/wp-content/uploads/2022/08/Decision-Doc-2022_Final.pdf",
+      "status": "historical",
+      "detected_at": "2026-06-28T11:39:04.861909+00:00"
+    },
+    {
+      "id": "c6fe2bca00ea4814",
+      "title": "Decision on Electricity Tariff 2011",
+      "source_url": "https://www.pucsl.gov.lk/wp-content/uploads/2019/02/decision_on_electricity_tariffs-2011.pdf",
+      "status": "historical",
+      "detected_at": "2026-06-28T11:39:04.861909+00:00"
+    },
+    {
+      "id": "1946dfead383b21f",
+      "title": "Decision on Electricity Tariff 2009",
+      "source_url": "https://www.pucsl.gov.lk/wp-content/uploads/2019/02/decision_on_electricity_tariffs-2009.pdf",
+      "status": "historical",
+      "detected_at": "2026-06-28T11:39:04.861909+00:00"
+    },
+    {
+      "id": "b15647e9b79c4fc5",
+      "title": "Decision on Electricity Tariff 2008",
+      "source_url": "https://www.pucsl.gov.lk/wp-content/uploads/2019/02/Tariff-Revision-2008-by-CEB.pdf",
+      "status": "historical",
+      "detected_at": "2026-06-28T11:39:04.861909+00:00"
+    },
+    {
+      "id": "5dea6f9857667d18",
+      "title": "Decision on Electricity Tariff 2013",
+      "source_url": "https://www.pucsl.gov.lk/wp-content/uploads/2019/02/Decision-on-Electricity-Tariffs-2013.pdf",
+      "status": "historical",
+      "detected_at": "2026-06-28T11:39:04.861909+00:00"
+    },
+    {
+      "id": "40f2337b26a700bc",
+      "title": "Decision on Electricity Tariff 2023 (July)",
+      "source_url": "https://www.pucsl.gov.lk/notices/approved-2nd-electricity-tariff-revision-2023/",
+      "status": "historical",
+      "detected_at": "2026-06-28T11:39:04.861909+00:00"
+    }
+  ]
+}

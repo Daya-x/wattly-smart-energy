@@ -1,0 +1,53 @@
+{
+  "task": "next_24_hours_total_energy",
+  "units": "kWh",
+  "quality": {
+    "raw_rows": 260640,
+    "complete_hourly_rows": 4344,
+    "imputed_numeric_values": 26397
+  },
+  "samples": {
+    "feature_rows": 4152,
+    "train": 2906,
+    "validation": 623,
+    "test": 623
+  },
+  "selected_model": "extra_trees",
+  "candidate_validation": {
+    "histogram_gradient_boosting": {
+      "mae_kwh": 5.884318670547133,
+      "rmse_kwh": 7.026013085229462,
+      "r2": -0.5664845854132694
+    },
+    "random_forest": {
+      "mae_kwh": 6.053170317588723,
+      "rmse_kwh": 7.2417894614670395,
+      "r2": -0.6641788803288808
+    },
+    "extra_trees": {
+      "mae_kwh": 5.788710801782484,
+      "rmse_kwh": 7.017830696420271,
+      "r2": -0.562838101353965
+    }
+  },
+  "validation": {
+    "mae_kwh": 5.788710801782484,
+    "rmse_kwh": 7.017830696420271,
+    "r2": -0.562838101353965
+  },
+  "test": {
+    "mae_kwh": 6.01213145817001,
+    "rmse_kwh": 7.3986447310508066,
+    "r2": -0.13965686959279755
+  },
+  "naive_baseline_validation": {
+    "mae_kwh": 6.571363402889245,
+    "rmse_kwh": 7.69518479890596,
+    "r2": -0.8790845629334427
+  },
+  "naive_baseline_test": {
+    "mae_kwh": 6.629576470588235,
+    "rmse_kwh": 8.684395226262325,
+    "r2": -0.570178133133016
+  }
+}

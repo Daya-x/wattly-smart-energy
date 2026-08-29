@@ -1,0 +1,85 @@
+{
+  "task": "abnormal_usage_detection",
+  "quality": {
+    "rows": 5000,
+    "normal": 4750,
+    "abnormal": 250,
+    "imputed_values": 0
+  },
+  "samples": {
+    "train": 3500,
+    "validation": 750,
+    "test": 750
+  },
+  "selected_model": "balanced_extra_trees",
+  "candidate_validation": {
+    "balanced_logistic_regression": {
+      "precision_abnormal": 0.03900709219858156,
+      "recall_abnormal": 0.24444444444444444,
+      "f1_abnormal": 0.0672782874617737,
+      "balanced_accuracy": 0.43002364066193854,
+      "roc_auc": 0.3071394799054374,
+      "confusion_matrix": [
+        [
+          434,
+          271
+        ],
+        [
+          34,
+          11
+        ]
+      ]
+    },
+    "balanced_random_forest": {
+      "precision_abnormal": 0.82,
+      "recall_abnormal": 0.9111111111111111,
+      "f1_abnormal": 0.8631578947368421,
+      "balanced_accuracy": 0.9491725768321513,
+      "roc_auc": 0.995397951142632,
+      "confusion_matrix": [
+        [
+          696,
+          9
+        ],
+        [
+          4,
+          41
+        ]
+      ]
+    },
+    "balanced_extra_trees": {
+      "precision_abnormal": 0.84,
+      "recall_abnormal": 0.9333333333333333,
+      "f1_abnormal": 0.8842105263157894,
+      "balanced_accuracy": 0.9609929078014184,
+      "roc_auc": 0.9968794326241135,
+      "confusion_matrix": [
+        [
+          697,
+          8
+        ],
+        [
+          3,
+          42
+        ]
+      ]
+    }
+  },
+  "test": {
+    "precision_abnormal": 0.8918918918918919,
+    "recall_abnormal": 0.825,
+    "f1_abnormal": 0.8571428571428571,
+    "balanced_accuracy": 0.9096830985915493,
+    "roc_auc": 0.9967253521126761,
+    "confusion_matrix": [
+      [
+        706,
+        4
+      ],
+      [
+        7,
+        33
+      ]
+    ]
+  }
+}

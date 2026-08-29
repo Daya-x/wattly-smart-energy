@@ -1,0 +1,48 @@
+{
+  "id": "lk_domestic_block_2026_05_11",
+  "country": "LK",
+  "currency": "LKR",
+  "provider": "PUCSL",
+  "category": "domestic_block",
+  "status": "active",
+  "effective_from": "2026-05-11",
+  "effective_to": null,
+  "billing_cycle_days": 30,
+  "source_url": "https://www.pucsl.gov.lk/wp-content/uploads/2026/05/Full-Final_Decision-on-Electricity-Tariffs-May-2026.pdf",
+  "source_title": "Decision on Electricity Tariff - May 2026",
+  "validation_cases": [
+    {"usage_kwh": 30, "expected_total_lkr": 230},
+    {"usage_kwh": 60, "expected_total_lkr": 630},
+    {"usage_kwh": 90, "expected_total_lkr": 1840},
+    {"usage_kwh": 120, "expected_total_lkr": 3280},
+    {"usage_kwh": 180, "expected_total_lkr": 6420},
+    {"usage_kwh": 240, "expected_total_lkr": 10920}
+  ],
+  "low_user": {
+    "maximum_monthly_kwh": 60,
+    "blocks": [
+      {"from_kwh": 0, "to_kwh": 30, "rate_lkr_per_kwh": 5},
+      {"from_kwh": 30, "to_kwh": 60, "rate_lkr_per_kwh": 9}
+    ],
+    "fixed_charges": [
+      {"maximum_monthly_kwh": 30, "charge_lkr": 80},
+      {"maximum_monthly_kwh": 60, "charge_lkr": 210}
+    ]
+  },
+  "standard_user": {
+    "minimum_monthly_kwh_exclusive": 60,
+    "blocks": [
+      {"from_kwh": 0, "to_kwh": 60, "rate_lkr_per_kwh": 14},
+      {"from_kwh": 60, "to_kwh": 90, "rate_lkr_per_kwh": 20},
+      {"from_kwh": 90, "to_kwh": 120, "rate_lkr_per_kwh": 28},
+      {"from_kwh": 120, "to_kwh": 180, "rate_lkr_per_kwh": 44},
+      {"from_kwh": 180, "to_kwh": null, "rate_lkr_per_kwh": 65}
+    ],
+    "fixed_charges": [
+      {"maximum_monthly_kwh": 90, "charge_lkr": 400},
+      {"maximum_monthly_kwh": 120, "charge_lkr": 1000},
+      {"maximum_monthly_kwh": 180, "charge_lkr": 1500},
+      {"maximum_monthly_kwh": null, "charge_lkr": 2100}
+    ]
+  }
+}
